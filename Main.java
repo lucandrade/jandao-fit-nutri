@@ -14,8 +14,11 @@ public class Main {
      
     System.out.println(" Nome  ");
     String nome = leitor.nextLine();
-    
-    System.out.println(" Sobre Nome  ");
+    leitor.nextLine();
+    System.out.println(" Sobre Nome 2  ");
+    String sobrenome = leitor.nextLine();
+
+    System.out.println(" Genêro  ");
     String Sex = leitor.nextLine();
     
     System.out.println(" Digite seu telefone > : ");
@@ -23,7 +26,7 @@ public class Main {
     
     System.out.println(" Digite seu Email > : ");
     String Mail = leitor.nextLine();
-   
+
 
     System.out.print("informe seu peso: ");
     double peso = leitor.nextDouble();
