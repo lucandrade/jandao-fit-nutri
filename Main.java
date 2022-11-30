@@ -10,6 +10,10 @@ public class Main {
         System.out.print("data de Nacimento:");
         
         dataNasc = leitor.nextInt();
+
+        if (2022 - dataNasc < 18) {
+            System.out.println("Você precisa ser maior de 18");
+        }
     } while(2022 - dataNasc < 18);
      
     System.out.println(" Nome  ");
